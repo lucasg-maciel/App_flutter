@@ -109,13 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter cookies',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Icon(Icons.cookie, size: 150, color: Colors.brown),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add), // This trailing comma makes auto-formatting nicer for build methods.
+        child: const Icon(Icons.cookie), // This trailing comma makes auto-formatting nicer for build methods.
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
